@@ -1,0 +1,51 @@
+/* Home.css */
+.hero {
+    min-height: 100vh;
+    background-image: url('../../assets/img/hero.avif');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    gap: 40px;
+    /* padding-top: 40px; */
+  }
+  
+  .heading {
+    font-family: Bebas;
+    text-align: center;
+    font-size: 3.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .cta button {
+    padding: 8px 16px;
+    background-color: #c84429;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.3rem;
+    border-radius: 17px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+  }
+  
+  .activities {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .activities {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .hero {
+      padding: 40px;
+    }
+  }
+  

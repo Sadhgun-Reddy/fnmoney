@@ -1,0 +1,78 @@
+/* Login.css */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .toggleButtons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .toggleButton {
+    padding: 10px 20px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  .toggleButton.active {
+    font-weight: bold;
+  }
+  
+  .forms {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form {
+    background-color: #1b1b2b;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: #ccc;
+    text-align: center;
+    padding-right: 30px;
+  }
+  
+  .form h2 {
+    margin-bottom: 10px;
+  }
+  
+  .form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form input {
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 8px;
+  }
+  
+  .form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #8fb4e3;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form button:hover {
+    background-color: #0056b3;
+  }
+  
